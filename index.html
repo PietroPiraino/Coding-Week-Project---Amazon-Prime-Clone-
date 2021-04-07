@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular Movies</title>
+
+    <meta
+      name="description"
+      content="Elaborato per esercitazione 'Conding Week' del corso di fomazione per front-end development organizzato da Edgemony. La richiesta prevede la realizzazione di una web app dove mostrare i film più popolari estratti dall'API di MovieDB. Il design richiesto dovrà essere simile a Amazon Prime Video"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon._CB430399855_.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/19f52b0410.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="nav">
+      <div class="nav__container">
+        <img
+          src="/Utils/prime-video-1.png"
+          alt="logo prime video"
+          class="logo"
+        />
+
+        <div class="nav__components">
+          <div class="nav__explore">
+            <h2 class="nav__explore__text">Esplora</h2>
+            <div class="nav__explore__arrow" id="nav__menu__arrow"></div>
+          </div>
+
+          <ul class="nav__menu">
+            <li class="home"><a>Home</a></li>
+            <li class="genre"><a>Generi</a></li>
+            <li><a>Canali</a></li>
+            <li>
+              <a id="categories__li">Categorie</a>
+              <div
+                class="nav__explore__arrow"
+                id="nav__categories__arrow"
+              ></div>
+            </li>
+            <ul class="nav__menu__categories">
+              <li><a>TV</a></li>
+              <li><a>Film</a></li>
+              <li><a>Bambini</a></li>
+              <li><a>Incluso con Prime</a></li>
+              <li><a>Originali</a></li>
+            </ul>
+            <li><a>Area personale</a></li>
+          </ul>
+
+          <i id="search-lens" class="fa fa-search nav__search"></i>
+
+          <div id="search-menu" class="search-menu">
+            <div class="search-menu__container">
+              <div class="search-menu__input-box">
+                <i class="fa fa-search input-box__lens"></i>
+                <input type="text" placeholder="Cerca" id="search-bar" />
+              </div>
+              <div class="search-menu__close-btn">
+                <i class="far fa-times-circle close-btn"></i>
+              </div>
+              <ul class="search-results"></ul>
+            </div>
+          </div>
+
+          <div class="nav__user__menu">
+            <i class="fas fa-user-circle nav__user-circle"></i>
+            <h3 class="nav__user__name">Nome Utente</h3>
+            <span class="nav__explore__arrow" id="nav__user__arrow"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="sections-container"></div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
