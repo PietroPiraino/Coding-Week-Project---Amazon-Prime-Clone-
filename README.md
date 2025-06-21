@@ -7,13 +7,6 @@ L'obiettivo era replicare la homepage di **Amazon Prime Video** utilizzando l'**
 
 ---
 
-## 🚀 Demo
-
-*(Aggiungi qui un link alla demo online se disponibile, es. GitHub Pages o Netlify)*  
-[🔗 Live Demo](#)
-
----
-
 ## 🛠️ Tech Stack
 
 - **HTML5**
