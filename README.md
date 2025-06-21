@@ -1,29 +1,104 @@
-# Coding-Week-Project---Amazon-Prime-Clone-
+# 🎬 Prime Video Clone
 
-The project was realised as a coding week exercise for Edgemony Coding Bootcamp.
-I was requested to create a clone of Amazon Prime homepage using the MovieDB API and the languages studied in the previous weeks of coding bootcamp.
-Please, download the files and lauch the app using a live server extension.
+Questo progetto è stato sviluppato come esercizio durante una **Coding Week** dell'**Edgemony Coding Bootcamp**.  
+L'obiettivo era replicare la homepage di **Amazon Prime Video** utilizzando l'**API di The MovieDB** e le tecnologie studiate nelle prime settimane del corso.
 
-Project details:
+> ⚠️ Il progetto è realizzato in **HTML**, **CSS** e **Vanilla JavaScript**, quindi **non richiede build tool o configurazioni particolari**. Basta scaricare i file e avviare un live server.
 
-LAYOUT :  Amazon Prime Video style and fully responsive
+---
 
-PROJECT REQUESTS:
+## 🚀 Demo
 
-Request 1 / Includes a "Most rated" carousel in the Homepage
+*(Aggiungi qui un link alla demo online se disponibile, es. GitHub Pages o Netlify)*  
+[🔗 Live Demo](#)
 
-Request 2 / Includes a modal window displaying more information whilst hovering or clicking on a film.
+---
 
-Request 3 / The button "Generi" filters the films by category and displays a carousel for each.
+## 🛠️ Tech Stack
 
-Request 4 / It fetches films only, or in other words does not display TV series.
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- **The MovieDB API**
 
-Request 5 / The modal window contains an average user rate meter in stars.
+---
+
+## 🧩 Funzionalità
+
+- ✅ **Layout in stile Amazon Prime Video**
+- ✅ **Responsive design** (adatto a dispositivi mobili e desktop)
+- ✅ **Carosello "Most Rated"** nella homepage
+- ✅ **Finestra modale con dettagli del film**, attivata al passaggio del mouse o al click
+- ✅ **Filtro per categoria ("Generi")**, con caroselli dedicati
+- ✅ **Solo film** (le serie TV sono escluse)
+- ✅ **Valutazione media degli utenti** visibile nella modale (stelle)
+- ✅ **Navbar con sottomenu espandibili/chiudibili**
+- ✅ **Ricerca per titolo** tramite icona nella navbar
+
+---
+
+## 🖼️ Screenshot
+
+![image](https://github.com/user-attachments/assets/5411fd77-f7df-40b7-9a4c-4da5c7093862)
 
 
-ADDITIONAL CONTENT:
+---
 
-1. The nav bar, similarly to amazon prime, contains open/close submenus.
+## ⚙️ Installazione & Avvio
 
-2. Also the Nav bar contains a search icon which allows the user to filter the films by title.
+1. **Clona la repository**
+   ```bash
+   git clone https://github.com/PietroPiraino/Coding-Week-Project---Amazon-Prime-Clone-.git
+   ```
+
+2. **Apri la cartella del progetto**
+   ```bash
+   cd Coding-Week-Project---Amazon-Prime-Clone-
+   ```
+
+3. **Avvia con Live Server**
+   - Se usi **Visual Studio Code**, ti basta cliccare con il tasto destro su `index.html` e selezionare **"Apri con Live Server"**.
+   - In alternativa, puoi usare un'estensione simile in altri editor o un semplice server HTTP (es. `python -m http.server`).
+
+> 📦 Non sono necessarie dipendenze o installazioni aggiuntive.
+
+---
+
+## 🔑 API Key
+
+Questo progetto utilizza [The MovieDB API](https://www.themoviedb.org/documentation/api).  
+Assicurati di avere una **API key valida** e di inserirla nel file JavaScript dove richiesto:
+
+```javascript
+const apiKey = "INSERISCI_LA_TUA_API_KEY";
+```
+
+---
+
+## 📁 Struttura del progetto
+
+```
+📁 nome-del-progetto/
+├── index.html
+├── style.css
+├── script.js
+└── assets/ (immagini, icone, ecc.)
+```
+
+---
+
+## 📚 Credits
+
+- Progetto realizzato durante il **Coding Bootcamp Edgemony**
+- Design ispirato ad **Amazon Prime Video**
+- Dati forniti da **The MovieDB API**
+
+---
+
+## 📄 Licenza
+
+Questo progetto è distribuito sotto licenza **MIT**.  
+Sentiti libero di usarlo, modificarlo e condividerlo con crediti appropriati.
+
+---
 
